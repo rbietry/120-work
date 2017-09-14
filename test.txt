@@ -8,3 +8,7 @@ I added a new line to this altered file in my text editor!!!!
 And another line!
 And another
 Another
+
+Here's another line
+Moar lines
+Lines for everyone
