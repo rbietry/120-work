@@ -8,7 +8,6 @@ Rachel Bietry, 51
 ## Description of What the Original Code is Doing
 
 
-What does each line do?
 Line 3 makes an object named ball.
 Lines 4-10 create parameters for the ball object.
 Lines 12-15 are in the setup function.
