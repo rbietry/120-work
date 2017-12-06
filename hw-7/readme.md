@@ -7,7 +7,7 @@ Rachel Bietry, 51
 
 ## Description of What the Original Code is Doing
 
-<!--
+
 What does each line do?
 Line 3 makes an object named ball.
 Lines 4-10 create parameters for the ball object.
@@ -29,11 +29,10 @@ Line 38 modifies the ball.scale_y to respond to the mouseY location when the mou
 
 How can you make the ball change direction?
 The ball changes direction when it hits the edge of the screen and is multiplied by -1.
--->
+
 
 
 ## How did you alter the sketch?
 
-<!--
+
 I changed the canvas size to fit the full window. I set the background to a new color. I changed the fill of the ball to be random each time it is drawn. I changed the ball.x and ball.y values so that the ball starts in a different location. I changed the ball.width to be larger. I changed ball.scale_x to be different than ball.scale_y. I removed the stroke from the ball.
--->
