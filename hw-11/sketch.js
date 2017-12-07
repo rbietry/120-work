@@ -13,7 +13,7 @@ function mouseDragged() {
 }
 
 function draw() {
-    background(random(5), random(25), random(100));
+    background(random(5), random(25), random(75));
     for (let i = 0; i < bubbles.length; i++) {
         bubbles[i].move();
         bubbles[i].show();
@@ -35,7 +35,9 @@ class Bubble {
     show() {
         stroke(random(255));
         strokeWeight(5);
-        fill(random(255), random(255), random(255), random(255));
+        fill(random(100), random(5), random(255), random(255));
         ellipse(this.x, this.y, this.r * 2);
+        fill(random(255), random(5), random(100), random(255));
+        rect(this.x+25, this.y+25, this.r * 2, this.r * 2);
     }
 }
